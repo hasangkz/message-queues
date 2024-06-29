@@ -1,16 +1,16 @@
 # Message Queue Example with RabbitMQ, Kafka, and Redis
 
-Bu proje, RabbitMQ, Kafka ve Redis kullanarak message queue örneklerini içermektedir. Her bir message queue için ayrı ayrı örnek kodlar bulunmaktadır.
+This project includes message queue examples using RabbitMQ, Kafka and Redis. There are separate sample codes for each message queue.
 
-## Message Queue Nedir?
+## What is Message Queue?
 
-Message queue, yazılım sistemlerinde kullanılan ve farklı bileşenler arasında asenkron mesaj iletişimini sağlayan bir yapıdır. Temel olarak üç ana bileşeni vardır:
+Message queue is a structure used in software systems that enables asynchronous message communication between different components. It basically has three main components:
 
-- **Producer**: Mesajları oluşturan veya gönderen uygulama veya bileşen.
-- **Queue**: Mesajların geçici olarak depolandığı ve ardından tüketilmesi için bekletildiği veri yapısı.
-- **Consumer**: Mesajları işleyen veya tüketen uygulama veya bileşen.
+- **Producer**: Application or component that creates or sends messages.
+- **Queue**: Data structure in which messages are temporarily stored and then held for consumption.
+- **Consumer**: Application or component that processes or consumes messages.
 
-### Kullanılan Teknolojiler
+### Used techs
 
 - Node.js
 - RabbitMQ
